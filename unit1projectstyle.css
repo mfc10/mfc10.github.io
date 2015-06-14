@@ -1,15 +1,18 @@
 body {
 	font-family: Calibri, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	color: white;
 	background-color: #1E90FF;
 	line-height: 10px;
 	margin: 10px;
+	text-align: center;
 }
 #slogan {
 	font-style: italic;
 	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
 }
 hr {
 	border:none;
@@ -23,6 +26,8 @@ h1 {
 	border: 4px;
 	border-style: solid;
 	border-color: #ff0000;
+	border-width: 45px;
+	text-align: center;
 
 }
 ul {
@@ -40,6 +45,7 @@ h3 {
 	font-weight: 500;
 	font-style: italic;
 	line-height: 20px;
+	text-align: center;
 }
 img {
 	padding: 15px;
