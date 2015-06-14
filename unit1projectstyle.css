@@ -7,6 +7,7 @@ body {
 	line-height: 10px;
 	margin: 10px;
 	text-align: center;
+	line-height: 16px;
 }
 #slogan {
 	font-style: italic;
@@ -23,7 +24,6 @@ h1 {
 	font-size: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	border: 4px;
 	border-style: solid;
 	border-color: #ff0000;
 	border-width: 45px;
@@ -33,6 +33,7 @@ h1 {
 ul {
 	text-align: center;
 	list-style-type: none; 
+	line-height: 16px;
 }
 h3 {
 	font-size: 20px;
