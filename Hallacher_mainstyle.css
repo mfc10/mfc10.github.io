@@ -1,0 +1,96 @@
+* { 
+	margin:0; padding:0; box-sizing:border-box;
+}
+header {
+	margin: .25em;
+
+}
+#wrapper {
+	margin: auto;
+}
+h1 {
+	font-family: "Diplomata SC", Georgia, serif;
+	text-align: center;
+	margin: .25em;
+}
+hr {
+	background-color: black;
+	height: .1em;
+	border: none;
+	clear:both;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+div {
+	clear: both;
+}
+nav {
+	background-color: blue;
+	color: black;
+	font-family: "Special Elite", "Bookman Old Style", "Times New Roman", serif; 
+	font-size: 2em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	background-color: blue;
+}
+.column {
+	float: left;
+	padding:1.25em;
+	margin: .25em;
+	width:120em;
+}
+#maincontent {
+	margin: auto;
+}
+#column1 {
+	background-color: #3498db;
+	clear: both;
+	float: left;
+}
+#column2 {
+	background-color: #f1c40f;
+	clear: both;
+	float: left;
+}
+#column3 {
+	background-color: #95a5a6;
+	clear: both;
+	float: left;
+}
+img {
+	float: left;
+	display: block;
+	padding: 1em;
+	margin:1em;
+}
+li {
+	list-style: none;
+	color:black;
+	display: block;
+	float: left;
+	padding: .5em 2em;
+}
+footer {
+	clear: both;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+button {
+	text-align: right;
+}
+p {
+	font-family: "Times New Roman"; sans-serif;
+	margin: .25em;
+	font-size: 1em;
+}
