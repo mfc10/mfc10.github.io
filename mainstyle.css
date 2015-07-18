@@ -1,0 +1,54 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	color: rgb(43,79,100);
+	background-color: rgb(97,179,228);
+	font-family: Yantramanov, Calibri, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+header {
+	background-color:rgb(169,209,232);
+	color:rgb(43,79,100);
+	padding:1em;
+}
+hr {
+	border:none;
+	color: rgb(43,79,100);
+	height: .1em;
+}
+h1 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin-top: .5em;
+
+}
+h2 {
+
+}
+column {
+	float: left;
+	padding:1.25em;
+	width:50%;
+}
+p {
+	margin: .5em;
+}
+#connect {
+
+}
+#learn {
+
+}
+#share {
+
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
