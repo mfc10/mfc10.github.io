@@ -12,6 +12,12 @@ header {
 	color:rgba(43,79,100, 0.25);
 	padding:1em;
 }
+#featured {
+	width: 100%;
+	margin: auto;
+	
+
+}
 .logo {
 	width: 10%;
 	height: 10%;
