@@ -55,7 +55,7 @@ nav a {
 	background-color: #2B4F64; 
 	color: #ECF0F1;
 	font-size: 1.5em;
-	padding: .5em 1em;
+	padding: .5em .5em;
 	float: right;
 	display: block;
 }
