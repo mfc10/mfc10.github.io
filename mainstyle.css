@@ -1,0 +1,31 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	font-family: Yantramanov, Calibri, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	padding-left: 1em;
+	background-color: blue;
+}
+
+header {
+	position: fixed;
+}
+
+#logo {
+	width: 15%;
+	height:15%;
+}
+
+h1 {
+	font-size: 25 em;
+	float: left;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
