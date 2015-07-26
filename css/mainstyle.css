@@ -154,17 +154,7 @@ footer {
 	clear: both;
 }
 
-#hamburger-nav {
-	display: none;
-}
 
-#mobile {
-	display: none;
-}
-
-#mobilenav {
-	display: none;
-}
 @media screen and (max-width: 1450px) {
     nav li {
 	list-style: none;
@@ -174,19 +164,14 @@ footer {
 	font-weight: 600;
 	}
 }
-	
 
-	#mobile {
-		display:block;
+@media screen and (max-width: 500px) {
+	nav li {
+	list-style: none;
+	margin: .5em;
+	float: right;
+	display: block;
+	font-weight: 600;
 	}
-	#hamburger-nav {
-		background-color: #2B4F64; 
-		color: #ECF0F1;
-		font-size: 1.5em;
-		padding: 1.5em;
-		float: right;
-		display: block;
-}
-
 }
 
