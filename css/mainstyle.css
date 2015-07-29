@@ -252,12 +252,12 @@ footer {
 	}
 	.left-article {
 	margin: .2em;
-	padding-left: .2em;
+	padding-left: .75em;
 }
 
 .right-article {
 	margin: .2em;
-	padding-right: .2em;
+	padding-right: .75em;
 }
 @media screen and (max-width: 480px) {
 	nav li {
