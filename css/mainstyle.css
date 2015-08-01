@@ -2,12 +2,13 @@
 
 body {
 	font-family: Yantramanov, Calibri, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
+	line-height: 1.4;
 	font-weight: normal;
 }
 
 #wrapper {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -16,7 +17,6 @@ header {
 	width: 100%;
 	margin: auto;
 	display: block;
-	margin-top: 1em;
 	text-align: center;
 }
 
@@ -78,10 +78,13 @@ nav a:hover {
 	font-weight: 700;
 }
 
+a {
+	text-decoration: none;
+	color:#52B3D9;
+}
+
 a:hover {
-	font-weight: 700;
-	background-color: #2B4F64;
-	color: #ECF0F1;
+	color: rgb(193,51,39);
 }
 
 a:visited {
@@ -92,12 +95,14 @@ a:visited {
 	color: black;
 	font-size: 1em;
 	padding: .25em;
+	margin-bottom: .25em;
 }
 
 img.article-image {
 	float: left;
 	padding: 1em 2.75em 0em 1.75em;
 	margin-left: 1.5em;
+	margin-bottom: 1em;
 }
 
 img.article-image2 {
@@ -114,6 +119,14 @@ p {
 .left-article {
 	margin: .5em;
 	padding-left: 1em;
+}
+
+.left-article a {
+	color:#ecf0f1;
+}
+
+.left-article a:hover {
+	color: rgb(193,51,39);
 }
 
 .right-article {
@@ -257,15 +270,21 @@ footer {
 
 .right-article {
 	margin: .2em;
-	padding-right: 1em;
+	padding-left: 1em;
 }
 @media screen and (max-width: 480px) {
+
 	nav li {
 		display: none;
 	}
+
 	#mobilenav {
-		display: inline;
+		display: block;
 		font-size: 1.5em;
+	}
+
+	nav:hover li {
+		display:block;
 	}
 		h1 {
 		padding: .25em;
